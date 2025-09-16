@@ -1,0 +1,15 @@
+naming:
+  slugify: true
+  lowercase: true
+  transliterate_ru: true
+  replace_map:
+    " ": "-"
+    "/": "-"
+    "\\": "-"
+
+filters:
+  include_patterns: []
+  exclude_patterns: []
+
+report:
+  path: "report.json"
